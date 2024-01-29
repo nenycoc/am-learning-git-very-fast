@@ -1,0 +1,7 @@
+echo "# am-learning-git-very-fast" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/nenycoc/am-learning-git-very-fast.git
+git push -u origin main
